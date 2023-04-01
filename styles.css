@@ -1,0 +1,79 @@
+body {
+    font-family: Arial;
+    background-image: url('./background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 72px;
+    text-align: center;
+    color: #1c5736;
+}
+
+.description {
+    width: 650px;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(46, 75, 133, 0.3);
+}
+
+.gallery-photo {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.list-item {
+    background-color: #585c5b;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.photo-decription {
+    color: #b8c0be;
+}
+
+.panel-a {
+    color: rgb(18, 69, 69);
+}
+
+.panel-h {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(117, 81, 38);
+}
+
+.panel-a:hover {
+    color: rgb(23, 89, 89);
+}
+
+.panel-h:hover {
+    background-color: rgb(80, 56, 26);
+}
+
+.price-list, th, td {
+    background-color: rgb(163, 183, 200);
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+th {
+    background-color: aquamarine;
+}
+
+th,
+td {
+    padding: 10px;
+}
